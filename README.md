@@ -35,9 +35,9 @@ Run api_script.py to query the Google Places API and retrieve business informati
 The results will be saved to a JSON file named places.json.
 
 # Notes
-Ensure you have a valid API key from Google Places and proper permissions set up for API usage.
-Be mindful of API rate limits to avoid being blocked or rate-limited.
-Remember to replace placeholder values with your actual data before running the scripts.
+- Ensure you have a valid API key from Google Places and proper permissions set up for API usage.
+- Be mindful of API rate limits to avoid being blocked or rate-limited.
+- Remember to replace placeholder values with your actual data before running the scripts.
 
 # Use Cases
 
