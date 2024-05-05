@@ -15,10 +15,10 @@ API Script (api_script.py)
 The api_script.py utilizes the generated coordinates to query the Google Places API for business information within a specified radius.
 
 # Parameters:
-csv_file_path: Path to the CSV file containing the generated coordinates written by the first R script.
-radius: Radius around each coordinate to search for businesses (in meters). *(Set this paramater so that for the grid of cordinates the radiuses are slighly overlapping)*
-type: Type of business to search for. (Utilize Google Places "Place Type" to search for specific businesses)
-key: Your API key from Google Places. 
+- csv_file_path: Path to the CSV file containing the generated coordinates written by the first R script.
+- radius: Radius around each coordinate to search for businesses (in meters). *(Set this paramater so that for the grid of cordinates the radiuses are slighly overlapping)*
+- type: Type of business to search for. (Utilize Google Places "Place Type" to search for specific businesses)
+- key: Your API key from Google Places. 
 
 # Usage:
 Run coordinate_generation.R to generate a grid of coordinates for a desired city/location and save them to a CSV file.
