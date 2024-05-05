@@ -1,6 +1,6 @@
 # Google Maps API Project
 # Overview
-This project is an API I coded to scrape information on different businesses on Google Maps. It utilizes Google Places API which allows for $200 of free API calls every month. It consists of two main scripts: one to generate a 10x10 grid of coordinates and another to query the Places API for business information.
+Have you ever wanted to scrape Google Maps and gather information about business in a given area? This project is an API I coded to help scrape and gather information on different businesses on Google Maps. It utilizes Google Places API which allows for $200 of free API calls every month. It consists of two main scripts: one to generate a 10x10 grid of coordinates and another to query the Places API for business information.
 
 # Example
 This is an example of utilizing this API. I scraped every repair shop in a 30 mile radius of New York and saved the shops data as a JSON file, which I then uploaded to google maps. 
