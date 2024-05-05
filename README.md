@@ -1,4 +1,4 @@
-# Google Maps API Project
+# Google Maps API Project (Python & R)
 # Overview
 Have you ever wanted to scrape Google Maps and gather information about business in a given area? This project is an API I coded to help you gather information about locations on Google Maps. It utilizes Google Places API which allows for $200 of free API calls every month and it consists of two main scripts: one to generate a 10x10 grid of coordinates and another to query the Places API for business information.
 
