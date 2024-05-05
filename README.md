@@ -2,6 +2,14 @@
 # Overview
 This project is an API I coded to scrape information on different businesses on Google Maps. It utilizes Google Places API which allows for $200 of free API calls every month. It consists of two main scripts: one to generate a 10x10 grid of coordinates and another to query the Places API for business information.
 
+# Example
+This is an example of utilizing this API. I scraped every repair shop in a 30 mile radius of New York and saved the shops data as a JSON file, which I then uploaded to google maps. 
+
+![google maps](https://github.com/tylernoga/Google-Maps-API/assets/114703388/87a620ff-dde0-4287-90a2-1bc0763777ef)
+
+You then have the ability to click on every point (repair shop) to get information about that shop
+![google maps 1](https://github.com/tylernoga/Google-Maps-API/assets/114703388/30f2036c-fd9e-462c-a7db-ff94dcebf157)
+
 # Coordinate Generation (coordinate_generation.R)
 The "coordinate_generation.R" script generates a grid of coordinates covering a specified area. It calculates a grid of coordinates within a defined bounding box in latitude and longitude and outputs them to a CSV file. For example, if you were interested in getting every single repair shop for the city New York, you would simply change the NE LAT&LON and SW LAT&LON to be the point to the most North East and the point to the most South West in New York. This is needed because if we just use one cordinate, the API only returns 60 results. Instead by having 100 cordinates with smaller radiuses covering the entire city, we then can generate 60*10*10 unique business returned by the API.
 
@@ -30,15 +38,6 @@ The results will be saved to a JSON file named places.json.
 Ensure you have a valid API key from Google Places and proper permissions set up for API usage.
 Be mindful of API rate limits to avoid being blocked or rate-limited.
 Remember to replace placeholder values with your actual data before running the scripts.
-
-
-# Example
-This is an example of utilizing this API. I scraped every repair shop in a 30 mile radius of New York and saved the shops data as a JSON file, which I then uploaded to google maps. 
-
-![google maps](https://github.com/tylernoga/Google-Maps-API/assets/114703388/87a620ff-dde0-4287-90a2-1bc0763777ef)
-
-You then have the ability to click on every point (repair shop) to get information about that shop
-![google maps 1](https://github.com/tylernoga/Google-Maps-API/assets/114703388/30f2036c-fd9e-462c-a7db-ff94dcebf157)
 
 # Use Cases
 
