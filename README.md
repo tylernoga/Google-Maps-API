@@ -34,6 +34,7 @@ Remember to replace placeholder values with your actual data before running the 
 
 # Example
 This is an example of utilizing this API. I scraped every repair shop in a 30 mile radius of New York and saved the shops data as a JSON file, which I then uploaded to google maps. 
+
 ![google maps](https://github.com/tylernoga/Google-Maps-API/assets/114703388/87a620ff-dde0-4287-90a2-1bc0763777ef)
 
 You then have the ability to click on every point (repair shop) to get information about that shop
