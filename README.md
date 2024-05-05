@@ -34,7 +34,7 @@ Update the parameters in api_script.py with your desired values. (Radius, Busine
 Run api_script.py to query the Google Places API and retrieve business information for each coordinate.
 The results will be saved to a JSON file named places.json.
 
-#Notes
+# Notes
 Ensure you have a valid API key from Google Places and proper permissions set up for API usage.
 Be mindful of API rate limits to avoid being blocked or rate-limited.
 Remember to replace placeholder values with your actual data before running the scripts.
