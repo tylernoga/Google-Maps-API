@@ -10,7 +10,7 @@ with open(csv_file_path, "r") as csvfile:  #100 unique cordinates
 
 radius = 1609.34  # Replace with desired radius in meters (1 mile radius)
 type = "car_repair"  # Replace with desired business type
-key = ""  # Replace with your API key
+key = ""  # Replace with your API key from google places
 
 # List to store place IDs
 place_ids = []
